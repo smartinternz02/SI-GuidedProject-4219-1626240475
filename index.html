@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>body fitness prediction</title>
+<style>
+body
+    {
+    background-color:green;
+    }
+    label
+    {
+    width:150px;
+    display:inline-block;
+    }
+    #form{
+    border-radius:20px;
+    border-style:double;
+    color:orange;
+    width:600px;
+    padding:30px;
+    }
+    h2{
+    text-align:center;
+    }
+    .center{
+    text-align:center;
+    }
+    {
+    width: 150px;
+    text-align: center;
+    margin:0 auto;
+    }
+    .container {
+    margin-left:45%;
+    }
+    html, body { height: 100%; } html { display: table; margin: auto; } body { display: table-cell;
+    vertical-align: middle;
+    }
+    .design{
+    color:red;
+    }
+</style>
+<body>
+<div id="form" class="center"><hr>
+<marquee><h1> BODY FITNESS PREDICTION</h1></marquee>
+<h4 class="design">A Machine Learning Web App,Built With Flask</h4><hr>
+<form class="center" action = "/guest" method = "post">
+<label for="step_cound">Step_cound : </label>
+<input type="text" id="step_cound" name="sc"><br> <br>
+<label for="mood">mood : </label>
+<input type="text" id="username" name="m"><br><br>
+<label for="calories_bourned">Calories_bournedy : </label>
+<input type="text" id="username" name="cb"><br><br>
+<label for="hours_of_sleep">Hours_Of_Sleep :</label>
+<input type="text" id="username" name="hos"><br><br>
+<label for="bool_of_active">Bool_Of_Active :</label>
+<input type="text" id="username" name="boa"><br>
+<br>
+<label for="weight_kg">Weight_Kg : </label>
+<input type="text" id="username" name="wk"><br>
+<br>
+<div class="container">
+<button> Submit </button>
+</div>
+</form>
+<p><b>{{y}}</b></p>
+</body>
+</htmml>
